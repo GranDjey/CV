@@ -1,0 +1,56 @@
+LA DOMOISE
+
+url: http://www.ladomoise.fr/
+
+DÉVELOPPEMENT
+HTML5 / CSS3 / Responsive / PHP .
+DESIGN
+Libre d'utilisation, nous avons choisis d'utiliser cette charge graphique pour ce site internet.
+RÉFÉRENCEMENT
+Un référencement fonctionnel pertinent, en effet grace à google Adword souhaité par nos client, le site se retrouve dans les premières places de google.
+PROJET DETAILS
+Client: La Domoise
+Date: Octobre, 2015
+Online: www.ladomoise.fr
+développeur: Petit Romain
+" La Domoise fût une brasserie avec embouteillage sur place et livraison journalière par tournées aux particuliers. Notre établissement à ouvert ses portes depuis plus de 50 ans. Fort de cette expérience, nous poursuivons le même objectif celui de satisfaire nos clients, proposant des gammes de produits qualitatifs à des prix raisonnables. "
+
+"Une fête de famille, un mariage, une communion ... ou ... repas d'association, fête patronale, brocante, kermesse, etc ... Nous disposons de matériel nécessaire à la réussite de vos manifestations ! Un grand choix de vins de Bordeaux, Côtes de Rhône, Beaujolais, vins de Loire, vins d'Alsaces... Un panelle d'eau de source, d'eau minérale, d'eau pétillante ... Une diversité de bière blonde, brune, blanche, fruitée ... "
+
+
+VERONIQUE BELLEVILLE
+
+DÉVELOPPEMENT
+HTML5 / CSS3 / Responsive / PHP / Wordpress / SQL
+DESIGN
+Site vitrine + Interface Wordpress pour les actualités.
+RÉFÉRENCEMENT
+Un référencement naturel dit SEO. Ce référencement permet de regrouper toutes les techniques utilisés par les moteurs de recherche afin de se positionner dans les meilleurs places.
+PROJET DETAILS
+Client: Véronique Belleville
+Date: Octobre, 2017
+Online: Véronique Belleville
+développeur: Petit Romain
+Agence fondée depuis janvier 1998 par veronique belleville , et qui s’est développée pour la maitrise d’œuvre en bâtiment.
+
+Une activité essentiellement tournée vers une clientèle de particuliers , l’agence s’est ensuite ouverte à différents domaines, offant ainsi ses compétences dans les mises en conformité d’accessibilité, en qualité environnementale ,en reglementations thermiques , par exemple.
+
+Que vous souhaitiez faire construire votre habitation, agrandir ou rénover votre bien, nous vous vous guiderons dans vos choix et vous aiderons à mener le projet qui vous convient.
+
+AFRE
+
+DÉVELOPPEMENT
+HTML5 / CSS3 / Responsive / PHP .
+DESIGN
+Un site utile et pratique souhaité par ce club de rugby ( AFRE à REIMS ).
+RÉFÉRENCEMENT
+Un référencement naturel dit SEO. Ce référencement permet de regrouper toutes les techniques utilisés par les moteurs de recherche afin de se positionner dans les meilleurs places.
+PROJET DETAILS
+Client: Association folklorique de Rugby en Effervessence
+Date: Aout, 2011
+Online: afre-rugby.fr
+développeur: Petit Romain
+"Nous sommes heureux de vous accueillir ici sur le nouveau site de l’AFRE. C’est la fin de saison mais bien des nouveautés arrivent pour la saison prochaine : nouveau challenge, nouveaux maillots, nouveaux partenaires. Et je l’espère, bientôt vous comme nouveaux joueurs OU JOUEUSES ( c’est nouveau aussi !!! ) 
+A très bientôt donc,
+Affreusement
+Jéjé, le Prez"

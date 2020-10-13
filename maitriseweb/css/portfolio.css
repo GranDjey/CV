@@ -1,0 +1,296 @@
+
+.gallery ul li {
+  float: left;
+  margin: 0 0.87719%;
+  overflow: hidden;
+}
+
+.filter {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  text-decoration: none;
+  margin: 3% 5% 5% 5%;
+  font-size: 24px;
+}
+
+.wow {
+  color: black;
+}
+
+.wow:hover {
+  color: rgb(92, 92, 92);
+}
+
+.gallery {
+  padding: 10px 0 150px;
+  position: relative;
+  overflow: hidden;
+}
+
+.gallery .site {
+  padding: 5px;
+  padding-top: 20px;
+  position: relative;
+  width: 23.24561%;
+  position: relative;
+}
+
+.gallery .site-title{
+  display: block;
+  position: absolute;
+  text-align: center;
+  padding: 0.3em;
+  width: 8em;
+  color: white;
+  font-size: 18px;
+  z-index: 100;
+  background-color: #1E2022;
+  border-radius: 50px;
+  border: solid 2px rgba(255, 255, 255, 0.796);
+  opacity: 0;
+  margin-left: 25%;
+}
+
+.gallery .site a {
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  line-height: 0;
+  text-decoration: none;
+}
+
+.gallery .site img { 
+  height: 13.4em;
+  width: 100%;
+}
+
+.gallery .site a:before {
+  position: absolute;
+  width: 100%;
+  height: 100px;
+  top: 20%;
+  left: 32%;
+  background: url(../img/logo_transpa.png) no-repeat;
+  content: "";
+  opacity: 0;
+  z-index: 1;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+}
+
+.gallery .site a:hover h3{
+  transform: translateY(40px);
+  transition: all 0.3s linear;
+  opacity: 1;
+}
+
+.gallery .site a:hover:before {
+  left: 32%;
+  top: 38%;
+  opacity: 0.8;
+}
+
+.gallery .site a:after {
+  position: absolute;
+  width: 100%;
+  top: 0;
+  bottom: 0;
+  background: rgba(0, 0, 0, 0.3);
+  content: "";
+  opacity: 0;
+  -webkit-transition: all 0.3s linear;
+  -moz-transition: all 0.3s linear;
+  transition: all 0.3s linear;
+  z-index: 30;
+  margin: 0;
+}
+
+.gallery .site a:hover:after {
+  opacity: 1;
+}
+
+/**************************************************** modal ***********************************************/
+
+.port {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  margin-top: -20px!important;
+  background: #ffffff;
+  z-index: 103;
+  visibility: hidden;
+  -webkit-transform: translateY(-120%);
+  transform: translateY(-120%);
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+  transition: all 0.5s ease-in-out;
+}
+
+.btn-lg {
+  background-color: #2C3034 !important;
+  margin: 3%;
+}
+
+.port .description {
+  float: left;
+  width: 50%;
+  max-height: 100%;
+  padding: 0 40px 40px;
+  overflow: auto;
+}
+
+.port h1 {
+  font-size: 35px;
+  line-height: 2.3;
+  padding: 0;
+}
+
+.port>* {
+  opacity: 0;
+  -webkit-transition: all 0.5s linear;
+  -moz-transition: all 0.5s linear;
+  transition: all 0.5s linear;
+}
+
+.port.item_open {
+  visibility: visible;
+  -webkit-transform: translateY(0%);
+  transform: translateY(0%);
+  -webkit-transition: all 0.4s ease-in-out;
+  -moz-transition: all 0.4s ease-in-out;
+  transition: all 0.4s ease-in-out;
+}
+
+.port>* {
+  opacity: 1;
+  -webkit-transition-delay: 0.5s;
+  transition-delay: 0.5s;
+}
+
+#cross {
+  position: absolute;
+  right: 20px;
+  top: -121px;
+  opacity: 1;
+  margin-top: 20px;
+  z-index: 880;
+  font-size: 1.5rem;
+  -webkit-transition: all 0.1s ease-in-out;
+  -moz-transition: all 0.1s ease-in-out;
+  transition: all 0.1s ease-in-out;
+}
+
+.item_open #cross {
+  opacity: 1;
+  top: 0px;
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.close {
+  float: none;
+  opacity: 1;
+  text-shadow: none;
+  font-weight: 400;
+  color: #eee;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.close:hover {
+  color: white;
+}
+
+.close:not(:disabled):not(.disabled):focus,
+.close:not(:disabled):not(.disabled):hover {
+  opacity: 1;
+}
+
+/*modal close*/
+
+/* Create three equal columns that floats next to each other */
+.column {
+  float: left;
+  width: 33.33%;
+  display: none; /* Hide columns by default */
+}
+
+/* The "show" class is added to the filtered elements */
+.show {
+  display: block;
+}
+.portfolioFilter button {
+  margin: 2em 6px 2em 0;
+  color: #666;
+  text-decoration: none;
+  border: 1px solid #ccc;
+  padding: 4px 15px;
+  border-radius: 50px;
+  display: inline-block;
+}
+.portfolioFilter button.active {
+  background: #1E2022;
+  border: 1px solid #1E2022;
+  color: #f9f9f9;
+  box-shadow: none;
+}
+
+/**************************************************** media queries ***********************************************/
+
+
+@media only screen and (max-width: 576px) {
+
+  .boutons {
+    margin-top: 0 !important;
+  }
+
+  .gallery .site a:before {
+    left: 42%;
+  }
+
+  .gallery .site-title{
+    top: 70%;
+    opacity: 1;
+    margin: 0;
+    border-radius: 0 50px 50px 0;
+    margin-left: -3px;
+  }
+
+  .port{
+    padding-top: 100px;
+    height: 100%;
+  }
+
+  .gallery{
+    height: 100%!important;
+  }
+
+  .mini-gallery{
+    padding: 0;
+  }
+
+  .mini-gallery .site{
+    padding: 0;
+  }
+
+  .dropdown-item{
+    color: white;
+  }
+
+  .gallery .site{
+    padding: 0;
+    margin-top: 0;
+  }
+
+  #cross{
+    margin-top: 10px;
+  }
+}

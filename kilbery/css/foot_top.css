@@ -1,0 +1,71 @@
+/**************************************FOOTER*************************************/
+
+
+
+#foot2{
+	width: 100%;
+	height: 80px;
+	margin-top: 170px;
+	background-color: #ae2a25;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+
+}
+
+.contact a{
+	margin: 15px;
+}
+
+.contact i:hover{
+	transform: scale(1.2);
+	color: #eee;
+  transition: all 0.4s ease-in-out;
+}
+
+/*
+.footer{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 20px;
+
+}
+/********************************** BACK TO TOP ***********************************/
+
+a#cRetour {
+  border-radius: 3px;
+  padding: 10px;
+  font-size: 15px;
+  text-align: center;
+  color: #fff;
+  background: #ae2a25;
+  position: fixed;
+  right: 20px;
+  opacity: 1;
+  z-index: 99999;
+  transition: all ease-in 0.2s;
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  text-decoration: none;
+}
+
+a#cRetour:before {
+  content: "\25b2";
+}
+
+a#cRetour:hover {
+  background: rgba(0, 0, 0, 1);
+  transition: all ease-in 0.2s;
+}
+
+a#cRetour.cInvisible {
+  bottom: -35px;
+  opacity: 0;
+  transition: all ease-in 0.5s;
+}
+
+a#cRetour.cVisible {
+  bottom: 20px;
+  opacity: 1;
+}

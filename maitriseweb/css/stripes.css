@@ -1,0 +1,187 @@
+.stripes-card {
+    height: 100vh;
+    padding: 0;
+    margin: 3% 0;
+    display: flex;
+}
+
+.stripes-card-mobile {
+    height: 50vh;
+    padding: 0;
+    display: flex;
+}
+
+.stripes {
+    height: 100%;
+    width: 25%;
+    padding: 0;
+    overflow: hidden;
+
+}
+
+.stripes-mobile {
+    height: 50vh;
+    width: 50%;
+    padding: 0;
+    overflow: hidden
+}
+
+.stripes-content {
+    height: 100%;
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.stripes-content a{
+    text-decoration: none;
+}
+
+.stripes-title {
+    position: relative;
+    margin-top: -42em;
+    z-index: 300;
+    font-size: 1em;
+    font-weight: 600;
+    display: block;
+    left: -28em;
+    color: white;
+    text-shadow: black 0.1em 0.1em 0.2em;
+}
+
+.stripes-title-content{
+    height: 2.4em; 
+    background-color: #1E2022; 
+    width: 30em; 
+    padding: 18px 4px 18px 18px; 
+    padding-left: 15em; 
+    margin-left: -2em;
+    border-radius: 0 50px 50px 0;
+    border: solid 2px rgba(255, 255, 255, 0.796);
+}
+
+.stripes-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.stripes-content:hover {
+    transform: scale(1.2);
+    transition: all 5s ease;
+}
+
+.stripes-content:hover span{
+    opacity:1;
+    transform: translateX(18em);
+	transition: .4s .3s ease;
+}
+
+.stripes-content a{
+    display: block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    line-height: 0;
+}
+
+.stripes-content a:before{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    top: 20%;
+    left: 39%;
+    margin: -50px 0 0 -16px;
+    background: url(../img/logo_transpa.png) no-repeat;
+    content: "";
+    opacity: 0;
+    z-index: 110;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+}
+
+.stripes-content a:hover:before{
+    top: 50%;
+    opacity: 0.8;
+}
+
+.stripes-content a:after{
+    position: absolute;
+    width: 100%;
+    top: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    content: "";
+    opacity: 0;
+    -webkit-transition: all 0.3s linear;
+    -moz-transition: all 0.3s linear;
+    transition: all 0.3s linear;
+    z-index: 111;
+    margin: 0;
+}
+
+.stripes-content a:hover:after{
+    opacity: 1;
+}
+
+.stripes-card-mobile {
+    display: none;
+}
+
+
+@media only screen and (max-width: 990px) {
+
+    .stripes-card {
+        display: none;
+    }
+
+    .stripes-card-mobile {
+        display: flex;
+    }
+
+    .stripes-mobile {
+        width: 50%;
+    }
+}
+
+
+@media only screen and (max-width: 1140px) {
+
+    .stripes-title {
+        font-size: 0.8em;
+        left: -20em;
+    }
+
+    .stripes-content:hover span{
+        transform: translateX(21em);
+    }
+  
+    .stripes-title-content{
+        width: 18em; 
+        padding: 18px 6px 18px 18px; 
+        padding-left: 14%; 
+        margin-left: -2em;
+    }
+}
+
+@media only screen and (max-width: 960px) {
+
+    .gallery{
+        padding-bottom: 40px;
+    }
+
+    .stripes-title {
+        margin-top: -10em;
+        left: 0;
+        font-size: 0.6em;
+    }
+
+    .stripes-title-content{
+        width: 17em; 
+        padding: 18px 6px 18px 18px; 
+        padding-left: 14%; 
+        margin-left: -2em;
+    }
+}

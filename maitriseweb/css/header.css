@@ -1,0 +1,235 @@
+.navbar {
+    background-color: #1E2022 !important;
+    padding: 0;
+    position: fixed;
+    width: 100%;
+    z-index: 900;
+}
+
+.nav-title {
+    display: none;
+}
+
+.navbar-nav {
+    justify-content: space-between;
+    margin: 0 auto;
+    width: 100%;
+    height: 80px;
+    background-color: #1E2022 !important;
+    transition: 0.5s;
+}
+
+.navbar-brand {
+    width: 12em;
+    height: 110px;
+    margin: 0 4%;
+    background-color: #1E2022 !important;
+    border-radius: 50px;
+    text-align: center;
+    transition: 0.5s;
+}
+
+.navbar-brand2 {
+    display: none;
+}
+
+
+.nav-item {
+    width: 25%;
+    margin-top: -3px;
+    font-size: 1.6em;
+    text-align: center;
+}
+
+
+.logo {
+    height: 90px;
+    transition: 0.5s;
+}
+
+.nav-link {
+    margin-top: 0.7em;
+    text-align: center;
+    color: white !important;
+}
+
+.navbar-toggler {
+    margin: 2%;
+    border: none;
+    transition: 0.5s;
+}
+
+.navbar-toggler-icon {
+    color: #eee;
+    height: 30px;
+}
+
+.fas {
+    color: white;
+}
+
+/**************************************************** dropdown ***********************************************/
+
+
+
+.dropbtn:focus {
+    outline: none;
+}
+
+.dropdown {
+    position: relative;
+}
+
+.dropdown-menu {
+    display: none;
+    position: absolute;
+    background-color: #1E2022 !important;
+    min-width: 100%;
+    z-index: 1;
+    transition: 2s;
+    z-index: 600;
+    text-align: center;
+    border: none;
+    border-radius: 0;
+    border-radius: 0 0 0.25rem 0.25rem;
+}
+
+#drop {
+    color: #eee !important;
+    font-size: 16px;
+    text-decoration: none;
+    display: block;
+    z-index: 600;
+    padding: 0.6em 0;
+}
+
+#drop:hover {
+    background-color: rgb(52, 54, 56) !important;
+    color: white;
+    transition: 0.5s;
+}
+
+
+
+nav.black .dropbtn {
+    line-height: 2em;
+}
+
+
+/**************************************************** nav réduite ***********************************************/
+
+nav.black,
+nav.black ul,
+nav.black .logo {
+    height: 60px;
+    background-color: #1E2022 !important;
+}
+
+nav.black .navbar-brand {
+    width: 10em;
+    height: 80px;
+    background-color: #1E2022 !important;
+}
+
+nav.black .nav-link {
+    margin-top: 0.4em;
+}
+
+/* nav réduite close */
+
+/**************************************************** media queries ***********************************************/
+@media only screen and (max-width: 990px) {
+
+    .navbar {
+        transition: 0.5s;
+    }
+
+    .navbar-nav {
+        width: 100%;
+        height: 100vh;
+        padding-bottom: 20px;
+        justify-content: center;
+        transition: 0.5s;
+    }
+
+    .navbar-brand {
+        display: none;
+
+    }
+
+    .dropdown-menu {
+        z-index: 1900;
+    }
+
+    .navbar-brand2 {
+        display: block;
+    }
+
+    .logo2 {
+        height: 50px;
+        margin: 15px 10px 10px 0;
+        transition: 0.5s;
+    }
+
+    .nav-item {
+        margin: 1% auto;
+        width: 50%;
+        transition: 0.5s;
+        padding: 1em 0 1em 0;
+    }
+
+    .nav-link {
+        width: 100%;
+        transition: 0.5s;
+        margin: 0 2%;
+    }
+
+    .dropbtn {
+        margin: -2% 0 0 4%;
+    }
+
+    nav.black .dropbtn {
+        margin: 0 0 -6px 15px;
+    }
+
+    nav.black {        
+        transition: 0.5s;
+    }
+
+    nav.black .nav-item {
+        margin: 1% auto;
+        width: 50%;
+        transition: 0.5s;
+        padding: 1em 0 1em 0;
+    }
+
+    nav.black ul,
+    nav.black .logo {
+        height: 85px;
+        transition: 0.5s;
+    }
+
+    nav.black .navbar-nav {
+        margin-top: -10px;
+        width: 100%;
+        height: 100vh;
+        padding-bottom: 20px;
+        justify-content: center;
+    }
+
+    nav.black .navbar-toggler {
+        margin: 0.6% 2% 2% 2%;
+        transition: 0.5s;
+    }
+
+    nav.black .logo2 {
+        margin: 5px 10px 10px 0;
+        transition: 0.5s;
+    }
+
+    nav.black .nav-title {
+        margin: -1% 0 0 -4%;
+        transition: 0.5s;
+        padding: 15px 0;
+    }
+}

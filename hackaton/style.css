@@ -1,0 +1,475 @@
+.index {
+    background-image: url(img/ducale.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    overflow: hidden;
+}
+
+.hr {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), white, rgba(0, 0, 0, 0));
+  }
+
+  .hr2 {
+    border: 0;
+    height: 3px;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0), black, rgba(0, 0, 0, 0));
+  }
+
+  .hr3 {
+      color: black;
+      height: 3px;
+  }
+
+.old_style {
+    position: absolute;
+    background-image: url(img/degueu2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+    opacity: 0.2;
+    margin-top: -2em;
+}
+
+.icon {
+    position: relative;
+    padding: 0.1em;
+    border-radius: 25px;
+    color: white;
+    background-color: #dc3545;
+    margin: 0 0.2em;
+    cursor: pointer;
+}
+
+.icon:hover {
+    color: #ddd;
+    transform: scale(1.1);
+    transition: all 0.2s;
+}
+
+.modal-header {
+    border: none;
+    padding: 1rem 1rem 0 0;
+}
+
+.modal-body {
+    padding: 2rem;
+}
+
+.modal-open {
+    padding: 0!important;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 6em;
+    font-weight: 900;
+    line-height: 1.4em;
+    color: white;
+    word-spacing: 0.2em;
+    margin-top: 0.2em;
+    text-shadow: #dc3545 5px 5px;
+}
+
+.date {
+    text-align: center;
+    font-size: 2em;
+    font-weight: 700;
+    color: white;
+    letter-spacing: 0.05em;
+    word-spacing: 0.1em;
+    margin-top: 0.2em;
+}
+
+.search-sec{
+    padding: 2.2rem;
+    margin-top: 0.6em;
+}
+.search-slt{
+    display: block;
+    width: 100%;
+    font-size: 1.8rem;
+    font-weight: 800;
+    line-height: 1.5;
+    color: #55595c;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    height: calc(4rem + 4px) !important;
+    border-radius:0;
+}
+.wrn-btn{
+    width: 100%;
+    font-size: 16px;
+    font-weight: 400;
+    text-transform: capitalize;
+    height: calc(4rem + 4px) !important;
+    border-radius:0;
+    border-top-right-radius:50px;
+    border-bottom-right-radius:50px;
+}
+
+#oki{
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+}
+#tags1{
+    border-top-left-radius:50px;
+    border-bottom-left-radius:50px;
+}
+
+.partenaires {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+.part_col {
+    text-align: center;
+}
+
+.part {
+    height: 70px;
+    width: 70px;
+    border-radius: 50%;
+    background-color: white;
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    z-index: 5;
+}
+
+.part:hover {
+cursor: pointer;
+}
+
+.img-fluid.img-relou-no1 {
+    margin-top: 0.4em;
+}
+
+.img-fluid.img-relou-no2 {
+    margin-top: 1em;
+}
+
+.red_row {
+    position: absolute;
+    background-color: #dc3545;
+    bottom: 0;
+    width: 100%;
+    height: 3em;
+    z-index: 2;
+}
+
+/********************************* result ***********************************************/
+
+.first_result {
+    height: 100%;
+}
+
+.result_title {
+    margin-top: 2em;
+    height: 5em;
+    text-align: center;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.result_card {
+    position: relative;
+    padding: 0 2em;
+    height: 40vh;
+    text-align: center;
+    border-radius: 15px;
+    background-color: transparent;
+    overflow-y: hidden;
+}
+
+.result_card:hover {
+    overflow-y: auto;
+}
+
+.border_card {
+    margin-top: 1em;
+    background-color: rgba(255, 255, 255, 0.2);
+
+    border-radius: 15px;
+    padding: 0;
+    padding-bottom: 1em;
+}
+
+.card_title {
+    text-align: center;
+    color: white;
+}
+
+.results {
+    width: 90%;
+    background-color: #ddd;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+.card {
+    padding-top: 1em;
+}
+
+.title2 {
+    text-align: center;
+    font-family: 'Parisienne', cursive;
+    font-size: 3.6em;
+    font-weight: 900;
+    line-height: 1.4em;
+    color: white;
+    word-spacing: 0.2em;
+    margin-top: 0.3em;
+    text-shadow: #dc3545 4px 4px;
+}
+
+.title2_card {
+    position: relative;
+    margin-top: 1em;
+    padding: 0.4em;
+    text-align: center;
+    border-radius: 15px;
+}
+
+.title_into_card {
+    font-size: 1.6em;
+}
+
+.page1 {
+    background-image: url(img/ducale.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    height: 100vh;
+}
+
+.old_style2 {
+    position: absolute;
+    background-image: url(img/degueu2.gif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    width: 100%; 
+    opacity: 0.2;
+
+}
+
+.bg-grey-light{
+    background-color: #e4e4e4;
+}
+
+.result-space{
+    margin-right:10px; 
+}
+
+.padding-20{
+    padding: 20px;
+}
+
+
+.border-radius-50{
+    border-radius: 50px;
+}
+
+.border-radius-20{
+    border-radius: 20px;
+}
+
+.border-radius-10{
+    border-radius: 10px;
+}
+
+.border-radius-title{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.link-years{
+    color:#c72633;
+    font-size: 20px;
+    padding: 23px 5px;
+}
+.contain-result-page{
+    margin-top: 5em;
+    position: relative;
+    padding-top: 20px;
+    z-index: 30;
+}
+
+.title-result{
+    padding-top: 10px;
+    background-color: #e4e4e4;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: 400;
+    font-stretch: expanded;
+    font-size: 40px;
+    padding: 10px 0;
+}
+
+.result-contain{
+padding: 27px 50px 20px 50px;
+margin-top: 20px;
+margin-bottom: 20px;
+
+}
+
+.people-contain{
+    margin: 1em;
+    height: 12em;
+    overflow-y: hidden;
+}
+
+.people-contain:hover{
+    overflow-y: auto;
+}
+
+ul {
+    padding: 0;
+}
+
+li {
+    list-style-type: none; 
+    color: black;
+    font-size: 1.4em;
+}
+
+.info-button{
+    position: relative;
+    bottom: 0;
+    margin: 1.6em 1em 1em 0;
+    padding: 0.8em;
+    font-weight: 600;
+    background-color: white;
+    color: black;
+    z-index: 30;
+}
+
+.info-button:hover {
+    background-color: #c82333;
+}
+
+.red_row2 {
+    position: absolute;
+    background-color: #dc3545;
+    bottom: -3em;
+    width: 100%;
+    height: 6em;
+    z-index: 2;
+}
+
+.page2 {
+    background-image: url(img/ducale.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    overflow: hidden;
+    width: 100%;
+}
+
+
+.red_row3 {
+    position: relative;
+    background-color: #dc3545;
+    bottom: 0;
+    width: 100%;
+    margin-top: 2em;
+    height: 8em;
+    z-index: 2;
+}
+
+/********************************* media queries ***********************************************/
+
+@media only screen and (max-width:992px){
+
+    .title {
+        font-size: 5em;
+    }
+    
+    .date {
+        font-size: 1.6em;
+    }
+    
+}
+
+@media only screen and (max-width:768px){
+
+    .title {
+        font-size: 4em;
+    }
+    
+    .date {
+        font-size: 1.2em;
+    }
+
+    #oki{
+        border-top-left-radius:15px;
+        border-top-right-radius:15px;
+        border-bottom-left-radius:0px;
+    }
+
+    .wrn-btn{
+        border-top-right-radius:0px;
+        border-bottom-right-radius:15px;
+        border-bottom-left-radius:15px;
+    }
+
+    .search-sec{
+        padding: 3rem;
+        margin-top: -0.5em;
+    }
+
+    .part {
+        height: 70px;
+        width: 70px;
+    }
+    
+}
+
+@media only screen and (max-width:576px){
+
+.icon {
+    font-size: 1.6em;
+}
+
+    .title {
+        margin-top: 1.2em;
+        font-size: 2.2em;
+        text-shadow: #dc3545 3px 3px;
+    }
+    
+    .date {
+        font-size: 0.8em;
+    }
+
+    .search-slt{
+        font-size: 1.2rem;
+        height: calc(3rem + 3px) !important;
+
+    }
+    .wrn-btn{
+        height: calc(3rem + 3px) !important;
+    }
+
+    .partenaires {
+        transform: translateX(-0.6em);
+        z-index: 30;
+    }
+
+    .part {
+        height: 50px;
+        width: 50px;
+    }
+
+    .img-fluid.img-relou-no1 {
+        margin-top: 0.2em;
+    }
+    
+    .img-fluid.img-relou-no2 {
+        margin-top: 0.5em;
+    }
+}

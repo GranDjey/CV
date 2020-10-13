@@ -1,0 +1,88 @@
+#contact {
+
+  padding-bottom: 0;
+}
+
+#contact-us {
+  background-color: white;
+  padding-bottom: 90px;
+}
+
+#contact-us .heading {
+  padding: 55px 0 20px 0;
+}
+
+.form-control {
+  background-color: black;
+  border-color: rgba(0, 0, 0, 0.829);
+  height: 50px;
+  border-radius: 0;
+  box-shadow: none;
+}
+
+textarea.form-control {
+  min-height: 180px;
+  resize: none;
+}
+
+.form-group {
+  margin-bottom: 30px;
+}
+
+.contact-info {
+  padding-left: 70px;
+  font-weight: 300;
+}
+
+ul.address {
+  margin-top: 30px;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-info ul li {
+  margin-bottom: 8px;
+}
+
+.contact-info ul li a {
+  color: #fff;
+}
+
+/**************************************************** map ***********************************************/
+
+#google-map {
+  height: 350px;
+}
+
+/* global/headers close*/
+
+/**************************************************** img ***********************************************/
+
+.img-fluid {
+  min-width: 100%;
+}
+
+#service {
+  margin-right: 0;
+  margin-left: 0;
+  max-width: 100%;
+}
+
+#service img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+  margin: 0;
+}
+
+/* global/headers close */
+
+
+@media only screen and (max-width: 576px) {
+
+  #contact-us {
+    padding-bottom: 40px;
+  }
+
+}

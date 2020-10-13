@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: 0;
+}
+
+/*------------------------------
+----pour le footer------
+-------------------------------*/
+#footer {
+  background-color: #272727;
+	font-family: 'Roboto Condensed', sans-serif;
+	line-height: 1.4em;
+}
+
+#footer a {
+  color: white;
+
+}
+
+/*----------------------------------
+----------media query----------------
+----------------------------------*/
+
+@media only screen and (max-width: 1199px) {
+  #footer .in {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 991px) {
+
+}
+
+@media only screen and (max-width: 767px) {
+  #footer .in {
+    display: initial;
+  }
+}
+
+@media only screen and (max-width: 576px) {
+
+  }

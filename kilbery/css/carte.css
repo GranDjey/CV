@@ -1,0 +1,73 @@
+.carte {
+  background-color: #000;
+  color: #fff;
+}
+h3 {
+  line-height: 1.6em;
+}
+.enteteboisson {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding-top: 5em;
+}
+.titreboissons{
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em;
+  font-size: 3em;
+  color: #aa2b26;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff;
+  font-family: 'Lalezar', cursive;
+}
+.soustitreboisson {
+  text-align: center;
+  font-size: 1.8em;
+  color: #aa2b26;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff;
+  font-family: 'Lalezar', cursive;
+}
+.superconteneur
+{
+  display: grid;
+  grid-template-rows: 2;
+  width: 100%;
+}
+.conteneurboisson {
+  display: flex;
+  align-items: center;
+}
+#divboissons {
+  background-color: #000;
+  width: 92%;
+  height: 100%;
+  margin: 0.3em;
+  padding: 1em;
+  border: 0.3em solid #fff;
+  border-radius: 1em;
+  z-index: 5;
+}
+#divboissons h2{
+  font-weight: bold;
+  padding: 0.5em;
+}
+#divboissons2 {
+  margin: 1em;
+  padding: 0.5em;
+  background-color: transparent;
+  width: 75%;
+  border: 0.3em solid #aa2b26;
+  border-radius: 1em;
+  z-index: 0;
+}
+@media (max-width: 900px){
+  .conteneurboisson {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}

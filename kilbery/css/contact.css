@@ -1,0 +1,66 @@
+body {
+background-color: #000;
+color: #fff;
+}
+.blockcontact {
+  margin-top: 8em;
+  margin-left: 2em;
+  margin-right: 2em;
+  border: 0.5em solid #aa2b26;
+  border-radius: 3em;
+}
+.entetecontact{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-top: 1em;
+}
+.titrecontact {
+  text-align: center;
+  font-weight: bold;
+  padding: 0.5em;
+  font-size: 3em;
+  color: #aa2b26;
+  text-shadow: 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff,
+  0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff, 0px 0px 5px #fff;
+  font-family: 'Lalezar', cursive;
+}
+.form {
+  text-align: center;
+  padding-top: 6em;
+  padding-bottom: 6em;
+  display: flex;
+  flex: 1 1;
+  flex-wrap: wrap;
+  justify-content: center;
+  justify-content: space-around;
+  align-items: center;
+}
+.message {
+  display: flex;
+  color : #000;
+  height: 15em;
+  margin-left: 1em;
+}
+.name, .email, .object {
+  display: flex;
+  justify-content: space-around;
+  width: 25em;
+  color : #000;
+}
+.name, .email, .object, .message, .send {
+  background-color: #fff;
+  margin-top: 0.5em;
+  padding: 0.5em;
+}
+.mail, .object, .send, .message {
+  margin-top: 1em;
+}
+.send {
+  color: #aa2b26;
+  font-family: 'Lalezar', cursive;
+}
+.object {
+  margin-bottom: 4em;
+}
