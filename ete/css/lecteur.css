@@ -1,0 +1,73 @@
+.container2 {
+    width: 100%;
+    margin: 1em 0 1em 0;
+    justify-content: center;
+    align-items: center;
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+
+.c_vid {
+    position: relative;
+    width: 100%;
+    max-width: 800px;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.video-js {
+    width: 100%;
+    height: auto;
+}
+
+.vjs-waiting {
+    visibility: hidden;
+    background: transparent;
+  }
+  .vjs-loading-spinner {
+    display: none !important;
+  }
+
+.video-js .vjs-tech {
+    position: relative;
+}
+
+.vjs-poster {
+    background-size: cover;
+    border : solid 1px #ff5c00;
+}
+
+.my-player-dimensions {
+    height: auto;
+}
+
+.video-js .vjs-big-play-button {
+    top: 48%;
+    left: 40%;
+    background-color: #ff5c00;
+    height: 2em;
+    width: 3.8em;
+    padding-top: 0.6em;
+    z-index: 10;
+}
+
+.video-js .vjs-big-play-button .vjs-icon-placeholder:before{
+    margin-top: 0.1em;
+    font-size: 2em;
+}
+
+.video-js .vjs-big-play-button:hover {
+    background-color: #ff5e00ad;
+}
+
+.vjs-has-started .vjs-control-bar {
+    background-color: #ff5c00;
+    font-size: 2em;
+    z-index: 10;
+}
+
+/* Hide remaining time display here due to bug */
+.vjs-remaining-time {
+    display: none;
+  }

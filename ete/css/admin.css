@@ -1,0 +1,122 @@
+body{
+    font-family: arial;
+    background-color: #FF5C00;
+}
+
+footer {
+    display: none;
+}
+
+.btn-success{
+    border-color: grey;
+}
+
+.admin_title{
+    margin: 2% auto;
+    text-align: center;
+    color: #fff;
+    font-weight: 700;
+}
+
+.admin_vid_btn{
+    padding: 0;
+    margin: 2% 2%;
+    background-color: #eee;
+    color: #FF5C00;
+}
+
+.admin_mut_btn{
+    margin: 2% 2%;
+    background-color: #eee;
+    color: #FF5C00;
+    padding: 0;
+}
+
+.admin_vid_btn:hover, .admin_mut_btn:hover{
+    background-color: #fff;
+    color: #FF5C00;
+}
+
+.admin_title_btn_text{
+    color: #FF5C00!important;
+    display: block;
+    height: 100%;
+    width: 100%;
+    padding: 1em 1.5em;
+    text-decoration: none!important;
+}
+
+.admin_btn_title_text:hover{
+    color: #FF5C00!important;
+}
+
+.admin_group{
+    background-color: #eee;
+    border-radius: 15px;
+}
+
+#liens{
+    width: 100%;
+    height: auto;
+}
+
+.card{
+    margin-left: auto;
+    margin-right: auto;
+    -webkit-box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.44); 
+    box-shadow: 0px 2px 4px 1px rgba(0,0,0,0.44);
+}
+
+.card-body{
+    margin-top: 5%;
+    padding: 0;
+    height: 6rem;
+}
+
+.card-title{
+    color: black;
+    text-decoration: none;
+}
+
+.genre{
+    color: black;
+}
+
+#vid{
+    margin-top: 2%;
+    margin-bottom: 1%;
+}
+
+#sous-vid{
+    margin-top: 5%;
+    justify-content: space-around;
+}
+
+.admin_btn{
+    margin-top: 4%;
+    background-color: #FF5C00;
+}
+
+.admin_btn_text{
+    color: #fff;
+}
+
+.admin_btn:hover{
+    background-color: rgba(255, 94, 0, 0.8);
+}
+
+.admin_btn_text:hover{
+    color: #fff;
+    text-decoration: none;
+}
+
+.page-item.disabled {
+    opacity: 0.6;
+  }
+
+@media only screen and (max-width: 992px) {
+   
+.admin_title_btn{
+    position: relative;
+}
+}

@@ -1,0 +1,517 @@
+*{
+    font-family: arial;
+        outline: 0;
+}
+
+
+body{
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+main{
+    position: relative;
+    flex: 1;
+    overflow: hidden;
+}
+
+.container-fluid {
+    padding: 0;
+    font-family: arial;
+}
+
+#hr{
+  margin: 0 auto;
+  background-color: #ff5c00!important;
+  margin-top: 10px;
+}
+.example1 {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+    position: absolute;
+    z-index: -200;
+  }
+
+  .example1 h3 {
+    font-family: arial;
+    left: -250px;
+    font-size: 42em;
+    opacity: 0.6;
+    font-weight: 900;
+    letter-spacing: -410px;
+    word-spacing: -400px;
+    color: #ddd;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    /* Apply animation to this element */
+    -moz-animation: example1 90s linear infinite;
+    -webkit-animation: example1 90s linear infinite;
+    animation: example1 90s linear infinite;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+
+  .example1 h2 {
+    font-family: arial;
+    top: 600px;
+    left: -60px;
+    font-size: 24em;
+    opacity: 0.4;
+    font-weight: 900;
+    letter-spacing: -240px;
+    color: #FF5C00;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    line-height: 50px;
+    text-align: center;
+    /* Starting position */
+    -moz-transform: translateY(100%);
+    -webkit-transform: translateY(100%);
+    transform: translateY(100%);
+    /* Apply animation to this element */
+    -moz-animation: example1 60s linear infinite;
+    -webkit-animation: example1 60s linear infinite;
+    animation: example1 60s linear infinite;
+    writing-mode: vertical-rl;
+    text-orientation: upright;
+  }
+
+  /* Move it (define the animation) */
+  @-moz-keyframes example1 {
+    0% {
+      -moz-transform: translateY(100%);
+    }
+
+    100% {
+      -moz-transform: translateY(-100%);
+    }
+  }
+
+  @-webkit-keyframes example1 {
+    0% {
+      -webkit-transform: translateY(100%);
+    }
+
+    100% {
+      -webkit-transform: translateY(-100%);
+    }
+  }
+
+  @keyframes example1 {
+    0% {
+      -moz-transform: translateY(100%);
+      /* Firefox bug fix */
+      -webkit-transform: translateY(100%);
+      /* Firefox bug fix */
+      transform: translateY(30%);
+    }
+
+    100% {
+      -moz-transform: translateY(-100%);
+      /* Firefox bug fix */
+      -webkit-transform: translateY(-100%);
+      /* Firefox bug fix */
+      transform: translateY(-400%);
+    }
+  }
+
+#head {
+  margin: 0 auto;
+  text-align: center;
+  padding: 0;
+  margin-top: 100px;
+}
+
+#head img{
+  height: 8em;
+}
+
+#para {
+    padding: 2% 0 2% 0;
+}
+
+#head-title {
+    margin-top: 2rem;
+    height: 120px;
+    padding: 2%;
+    font-weight: 700;
+}
+
+#head-vid {
+    background-color: #EEEEEE;
+}
+
+#head-para {
+    padding: 2%;
+    min-height: 200px;
+    color: black;
+    padding-top: 20px;
+}
+
+#head-para2 {
+    font-size: 0.8em;
+    line-height: 1.8em;
+    color: black;
+    border: none;
+    margin-bottom: 1%;
+}
+
+.mot{
+    font-weight: 600;
+    margin-left: 1%;
+}
+
+#main-vid {
+    font-family: arial;
+    font-size: 1.6em;
+    background-color: rgba(255, 255, 255, 0.602);
+}
+
+
+.content-title {
+    font-size: 38px;
+    color: #FF5C00;
+    font-weight: 600;
+    border-radius: 5px;
+    margin: 0 5px;
+}
+
+.parallax-window {
+    margin-top: 2em;
+    min-height: 30em;
+    width: 100%;
+}
+
+.para-title{
+    padding-top: 4%;
+    font-size: 8em;
+    color: #eee;
+    font-weight: 600;
+    text-align: center;
+}
+
+#first {
+    padding-left: 3%;
+    padding-right: 3%;
+    max-height: 200px;
+    width: 355px;
+}
+
+#recipecontent {
+    margin-top: 2%;
+    margin-bottom: 2%;
+    padding-bottom: 2%;
+}
+
+.car-title{
+    text-align: center;
+    margin-bottom: 1%;
+    margin-top: 1%;
+    color: black;
+    font-weight: 700;
+}
+
+.prev, .next{
+    margin: auto 0;
+}
+
+.prevm{
+    display: none;
+    margin: 0 1em;
+    left: -40px;
+}
+
+.content{
+  margin-top: 2%;
+}
+
+.content-control-next{
+  margin-left: -0.1em;
+}
+
+.content-control-next,
+.content-control-prev {
+    text-align: center;
+    font-size: 8em;
+    color: #FF5C00!important;
+}
+
+.content-control-next:hover,
+.content-control-prev:hover {
+    transition: 0.5s;
+    opacity: 1;
+}
+
+a:link 
+{ 
+text-decoration:none; 
+} 
+
+#car {
+    padding-left: 0;
+    margin-left: -1%;
+}
+
+#miniature {
+    width: 115%;
+}
+
+#vid-petit {
+    display: none;
+}
+
+.car{
+    height: 28rem; 
+    margin-top: 3rem;
+}
+.carousel {
+    background: transparent;
+  }
+.carousel img{
+    z-index: 1000;
+    width: 100%;
+}
+  .carousel-cell {
+    width: 28%;
+    height: 260px;
+    margin-right: 10px;
+    border-radius: 5px;
+  }
+
+  .flickity-slider{
+      margin-left: -80px;
+  }
+
+/* big buttons, no circle */
+.flickity-prev-next-button {
+    position: absolute;
+    width: 80px;
+    height: 120px;
+    background: transparent;
+    border: none;
+    font-weight: 900;
+  }
+  /* arrow color */
+  .flickity-prev-next-button .arrow {
+    fill: #FF5C00;
+  }
+  .flickity-prev-next-button.no-svg {
+    color: #FF5C00;
+  }
+  .flickity-prev-next-button:hover {
+    background: transparent;
+  }
+  /* hide disabled button */
+  .flickity-prev-next-button:disabled {
+    display: none;
+  }
+  
+  .flickity-prev-next-button.next {
+    right: 20px;
+    
+}
+
+.flickity-prev-next-button .flickity-button-icon{
+    width: 70%;
+    height: 80%;
+    background-color: rgba(255, 255, 255, 0.816);
+    border-radius: 5px;
+}
+
+  .dot{
+    display: none;
+  }
+
+@media only screen and (max-width: 1200px) {
+
+    .parallax-window {
+        min-height: 15em;
+        margin: 3em 0 2em 0;
+    }
+
+    .para-title{
+        font-size: 4em;
+    }
+    .car{
+        height: 24rem; 
+        margin-top: 2rem;
+    }
+      .carousel img{
+        z-index: 1000;
+        width: 100%;
+    }
+      .carousel-cell {
+        width: 38%;
+        margin-right: 10px;
+        border-radius: 5px;
+      }
+
+}
+@media only screen and (max-width: 992px) {
+    .carousel {
+        height: 16em;
+      }
+
+      .carousel-cell {
+        width: 48%;
+        height: 500px;
+      }
+
+
+}
+
+@media only screen and (max-width: 768px) {
+
+    #head-title {
+        font-size: 24px;
+        height: 50px;
+    }
+
+    .bandeau{
+        height: 200px;
+        margin-top: 30%;
+    }
+
+    #main-vid iframe {
+        height: 150px;
+        width: 266px;
+    }
+
+    #head-para {
+        font-size: 14px;
+        height: 100px;
+        line-height: 1.6em;
+    }
+
+    #head-para2 {
+        font-size: 16px;
+        height: 100px;
+    }
+
+    .parallax-window {
+    min-height: 10em;
+    }
+
+    .para-title{
+        font-size: 2.6em;
+    }
+
+    .car-title{
+    margin-bottom: 5%;
+    margin-top: 5%;
+    }
+
+    #head-para2 {
+    margin-bottom: -40px;
+    }
+
+    #car {
+        margin-left: 13%;
+    }
+
+    .collapse{
+        margin: 0;
+    }
+
+    #first {
+        padding: 8%;
+    }
+
+    #first img{
+        padding: 18%;
+        margin-top: -25%;
+    }
+
+    #vid-petit {
+        display: block;
+    }
+    .carousel{
+        height: 13em;
+    }
+      .carousel-cell {
+        width: 48%;
+      }
+
+      .prev{
+          display: none;
+      } 
+      .next{
+        padding-top: 0;
+        margin: 0 1em;
+    }
+
+    .prevm{
+        display: block;
+    }
+
+    
+}
+
+
+@media only screen and (max-width: 500px) {
+
+  #head img{
+    height: 5em;
+  }
+    #main-vid {
+        font-size: 1em;
+    }
+
+    .bandeau{
+        height: 200px;
+        margin-top: 40%;
+    }
+
+    #first img{
+        padding: 12%;
+        margin-top: -15%;
+    }
+
+    #first {
+        padding: 0;
+    }
+
+    .content-title{
+        font-size: 1.4em;
+    }
+
+    .content-control-next,
+    .content-control-prev {
+    font-size: 6em;
+    line-height: 1em;
+}
+
+.car{
+    height: 13em;
+}
+.carousel{
+    height: 10em;
+}
+  .carousel-cell {
+    width: 48%;
+  }
+  .flickity-prev-next-button {
+    margin-top: -12px;
+  }
+  .flickity-prev-next-button.next {
+    right: -40px;
+}
+  .flickity-prev-next-button .flickity-button-icon{
+    width: 40%;
+    height: 40%;
+}
+}
+
+  

@@ -1,0 +1,29 @@
+body{
+    background-color: #FF5C00;
+    font-family: arial;
+}
+
+footer {
+     display: none;
+}
+
+.form_group{
+    background-color: #eee;
+    margin-top: 2%;
+    padding: 2%;
+    border-radius: 15px;
+}
+
+.form_title{
+    text-align: center;
+    color: #FF5C00;
+    font-weight: 700;
+}
+
+.form_btn{
+    background-color: #FF5C00;
+}
+
+.form_btn:hover{
+    background-color: rgba(255, 94, 0, 0.8);
+}
